@@ -27,9 +27,9 @@ All sensitive credentials are injected via environment variables stored inside a
 
 ## 🔄 Workflow (Step-by-step)
 
-<img src="images/workflow_diagram.png" width="500" />
+<img src="images/workflow_diagram.png" width="700" />
 
-
+**Flow:** (1) Search SFTP → (2) Download to local staging → (3) Upload to FTP (final)
 **Steps**
 1) Script starts and **checks SFTP** for required files.  
 2) If found, files are **downloaded to the local folder** (staging).  
