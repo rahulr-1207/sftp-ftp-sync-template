@@ -1,4 +1,5 @@
 
+
 <p align="left">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" />
   <img src="https://img.shields.io/github/last-commit/rahulr-1207/sftp-ftp-sync-template" />
@@ -17,6 +18,12 @@ This repository provides a **sanitized WinSCP automation template** that demonst
 All sensitive credentials are injected via environment variables stored inside a local `secrets/secrets.cmd` file that is **not committed** to this repository.
 
 ---
+
+## 📸 Screenshots
+
+### ✔ Demo Output (Sample)
+
+<img src="images/demo_output.png" width="700" />
 
 ## 🚀 Features
 
