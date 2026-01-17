@@ -27,7 +27,8 @@ All sensitive credentials are injected via environment variables stored inside a
 
 ## 🔄 Workflow (Step-by-step)
 
-images/workflow_diagram.png
+<img src="images/workflow_diagram.png" width="500" />
+
 
 **Steps**
 1) Script starts and **checks SFTP** for required files.  
