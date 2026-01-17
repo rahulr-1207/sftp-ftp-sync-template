@@ -25,9 +25,14 @@ All sensitive credentials are injected via environment variables stored inside a
 
 <img src="images/demo_output.png" width="700" />
 
-## 🔄 Workflow (Step-by-step)
 
-<img src="images/workflow_diagram.png" width="700" />
+
+
+
+<h2>🔄 Workflow (Step‑by‑step)</h2>
+<img src="images/workflow_steps.PNG" alt="Workflow diagram" width="700">
+
+
 
 **Flow:** (1) Search SFTP → (2) Download to local staging → (3) Upload to FTP (final)
 **Steps**
