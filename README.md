@@ -25,6 +25,15 @@ All sensitive credentials are injected via environment variables stored inside a
 
 <img src="images/demo_output.png" width="700" />
 
+## 🔄 Workflow (Step-by-step)
+
+images/workflow_diagram.png
+
+**Steps**
+1) Script starts and **checks SFTP** for required files.  
+2) If found, files are **downloaded to the local folder** (staging).  
+3) Script **uploads the staged files to FTP** (final destination).
+
 ## 🚀 Features
 
 - Automated file sync from **SFTP → local disk → FTP**
