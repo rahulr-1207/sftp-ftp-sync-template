@@ -1,26 +1,14 @@
 
 <p align="left">
-
-  <!-- License -->
   <img src="https://img.shields.io/badge/License-MIT-green.svg" />
-
-  <!-- Last Commit -->
   <img src="https://img.shields.io/github/last-commit/rahulr-1207/sftp-ftp-sync-template" />
-
-  <!-- Repo Size -->
   <img src="https://img.shields.io/github/repo-size/rahulr-1207/sftp-ftp-sync-template" />
-
-  <!-- Stars -->
   <img src="https://img.shields.io/github/stars/rahulr-1207/sftp-ftp-sync-template?style=social" />
-
-  <!-- CI Badge (optional) -->
   <img src="https://img.shields.io/github/actions/workflow/status/rahulr-1207/sftp-ftp-sync-template/ci.yml?label=CI" />
-
-  <!-- Script / Tool -->
   <img src="https://img.shields.io/badge/Script-Batch-blue.svg" />
   <img src="https://img.shields.io/badge/Tool-WinSCP-2D6DB7.svg" />
-
 </p>
+
 
 # sftp-ftp-sync-template
 
