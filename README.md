@@ -1,25 +1,44 @@
-# FTP/SFTP Sync (WinSCP) — Public, Sanitized Example
 
-This repository demonstrates a **sanitized** WinSCP script that pulls two files from SFTP and uploads them to FTP.
-All endpoints and credentials are injected via environment variables loaded from a local `secrets\secrets.cmd` file that is **not committed**.
+<p align="left">
 
-## Structure
-```
-scripts/                 # WinSCP script (no secrets)
-examples/                # Example secrets template (placeholders)
-secrets/                 # Your local secrets (gitignored)
-.github/workflows/       # CI checks
-```
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
 
-## Quick Start (Windows)
-1. Copy `examples/secrets_example.cmd` to `secrets\secrets.cmd`.
-2. Fill values and keep that file **out of Git**.
-3. Ensure `winscp.com` is in PATH.
-4. Run `run_sync.cmd`.
+  <!-- Last Commit -->
+  <img src="https://img.shields.io/github/last-commit/rahulr-1207/sftp-ftp-sync-template" />
 
-## Security
-- Never commit credentials or real hostnames.
-- If a secret is committed, rotate it and purge from history immediately.
+  <!-- Repo Size -->
+  <img src="https://img.shields.io/github/repo-size/rahulr-1207/sftp-ftp-sync-template" />
 
-## License
-MIT — see `LICENSE`.
+  <!-- Stars -->
+  <img src="https://img.shields.io/github/stars/rahulr-1207/sftp-ftp-sync-template?style=social" />
+
+  <!-- CI Badge (optional) -->
+  <img src="https://img.shields.io/github/actions/workflow/status/rahulr-1207/sftp-ftp-sync-template/ci.yml?label=CI" />
+
+  <!-- Script / Tool -->
+  <img src="https://img.shields.io/badge/Script-Batch-blue.svg" />
+  <img src="https://img.shields.io/badge/Tool-WinSCP-2D6DB7.svg" />
+
+</p>
+
+# sftp-ftp-sync-template
+
+This repository provides a **sanitized WinSCP automation template** that demonstrates an **SFTP → local → FTP** file synchronization workflow using Windows batch scripting.
+
+All sensitive credentials are injected via environment variables stored inside a local `secrets/secrets.cmd` file that is **not committed** to this repository.
+
+---
+
+## 🚀 Features
+
+- Automated file sync from **SFTP → local disk → FTP**
+- Pure **WinSCP scripting** + Windows batch
+- **Zero hardcoded credentials** (env‑var based)
+- Safe, generic filenames (`file_abc_*`, `file_xyz_*`)
+- Clean directory structure (`/abc/`, `C:\xyz\`)
+- Optional GitHub Actions CI to detect accidental secrets
+
+---
+
+## 📁 Repository Structure
